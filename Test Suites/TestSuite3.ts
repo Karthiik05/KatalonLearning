@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>SwagLabsSuite</name>
+   <name>TestSuite3</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>919ca659-b40f-4281-9868-874eb46787fc</testSuiteGuid>
+   <testSuiteGuid>75270308-58f1-43ec-95fc-74f230906827</testSuiteGuid>
    <testCaseLink>
-      <guid>347e9a31-d506-41fa-8d88-d154bfd0591f</guid>
+      <guid>5c38661d-51b6-4cad-9aac-4492bfddb519</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SwagLabs</testCaseId>
+      <testCaseId>Test Cases/Verifyhomepage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a5be57a7-4d58-4704-9274-22bd22483741</guid>
+      <guid>96a179be-9912-4382-8eac-e9181f49e95b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SwagLabslogin</testCaseId>
+      <testCaseId>Test Cases/cartaddremove</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

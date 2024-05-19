@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSUite4,Chrome 124.0.0.0,,,18-05-2024 18:49:31,18-05-2024 18:50:45,1m - 14.193s,PASSED
+,,,,,,,
+Test Cases/cartaddremove,Chrome 124.0.0.0,,,18-05-2024 18:50:05,18-05-2024 18:50:22,17.080s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,18-05-2024 18:50:05,18-05-2024 18:50:14,8.994s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Chrome 124.0.0.0,,,18-05-2024 18:50:14,18-05-2024 18:50:16,1.571s,PASSED
+"setText(findTestObject(""Object Repository/Cart/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_user"")",Chrome 124.0.0.0,,,18-05-2024 18:50:16,18-05-2024 18:50:17,1.090s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Cart/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 124.0.0.0,,,18-05-2024 18:50:17,18-05-2024 18:50:17,0.342s,PASSED
+"click(findTestObject(""Object Repository/Cart/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Chrome 124.0.0.0,,,18-05-2024 18:50:17,18-05-2024 18:50:20,2.895s,PASSED
+"click(findTestObject(""Object Repository/Cart/Page_Swag Labs/button_ADD TO CART""))",Chrome 124.0.0.0,,,18-05-2024 18:50:20,18-05-2024 18:50:20,0.314s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Cart/Page_Swag Labs/button_REMOVE""), ""REMOVE"")",Chrome 124.0.0.0,,,18-05-2024 18:50:20,18-05-2024 18:50:20,0.212s,PASSED
+"click(findTestObject(""Object Repository/Cart/Page_Swag Labs/button_REMOVE""))",Chrome 124.0.0.0,,,18-05-2024 18:50:21,18-05-2024 18:50:21,0.306s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Cart/Page_Swag Labs/button_ADD TO CART""), ""ADD TO CART"")",Chrome 124.0.0.0,,,18-05-2024 18:50:21,18-05-2024 18:50:21,0.332s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,18-05-2024 18:50:21,18-05-2024 18:50:22,0.945s,PASSED
+,,,,,,,
+Test Cases/CartCount,Chrome 124.0.0.0,,,18-05-2024 18:50:22,18-05-2024 18:50:45,23.138s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,18-05-2024 18:50:22,18-05-2024 18:50:35,12.733s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Chrome 124.0.0.0,,,18-05-2024 18:50:35,18-05-2024 18:50:39,3.772s,PASSED
+"setText(findTestObject(""Object Repository/Multipleproducts/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_user"")",Chrome 124.0.0.0,,,18-05-2024 18:50:39,18-05-2024 18:50:39,0.518s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Multipleproducts/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 124.0.0.0,,,18-05-2024 18:50:39,18-05-2024 18:50:40,0.335s,PASSED
+"click(findTestObject(""Object Repository/Multipleproducts/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Chrome 124.0.0.0,,,18-05-2024 18:50:40,18-05-2024 18:50:44,3.902s,PASSED
+"click(findTestObject(""Object Repository/Multipleproducts/Page_Swag Labs/button_ADD TO CART""))",Chrome 124.0.0.0,,,18-05-2024 18:50:44,18-05-2024 18:50:44,0.292s,PASSED
+"click(findTestObject(""Object Repository/Multipleproducts/Page_Swag Labs/button_ADD TO CART""))",Chrome 124.0.0.0,,,18-05-2024 18:50:44,18-05-2024 18:50:44,0.234s,PASSED
+"click(findTestObject(""Object Repository/Multipleproducts/Page_Swag Labs/button_ADD TO CART""))",Chrome 124.0.0.0,,,18-05-2024 18:50:44,18-05-2024 18:50:44,0.225s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,18-05-2024 18:50:44,18-05-2024 18:50:45,0.865s,PASSED

@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027user-name\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240518_185707/TestSuite2/20240518_185712/Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240518_185707/TestSuite2/20240518_185712/Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027login-button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240518_185707/TestSuite2/20240518_185712/Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/homepage/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027user-name\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240518_185707/TestSuite2/20240518_185712/Object Repository/homepage/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac_attributes.png"
+    }
+  ]
+}

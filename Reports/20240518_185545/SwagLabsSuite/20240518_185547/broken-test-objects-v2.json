@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SwagLabObject/Page_Swag Labs/path (1)",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240518_185545/SwagLabsSuite/20240518_185547/Object Repository/SwagLabObject/Page_Swag Labs/path (1)_CSS.png"
+    }
+  ]
+}

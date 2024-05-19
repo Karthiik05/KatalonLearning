@@ -12,17 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>75270308-58f1-43ec-95fc-74f230906827</testSuiteGuid>
    <testCaseLink>
-      <guid>5c38661d-51b6-4cad-9aac-4492bfddb519</guid>
+      <guid>da507ab3-714b-4e27-a198-fae5ecee0e0e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Verifyhomepage</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>96a179be-9912-4382-8eac-e9181f49e95b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/cartaddremove</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

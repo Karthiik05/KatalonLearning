@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SwagLabsSuite" time="35.473" tests="1" failures="0" errors="0">
+   <testsuite name="SwagLabsSuite" tests="1" failures="0" errors="0" time="35.473" skipped="0" timestamp="19-05-2024T13:55:06" hostname="YG212WY - IN3156889W1.ey.net" id="Test Suites/SwagLabsSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\YG212WY\\OneDrive - EY\\Documents\\KatalonLearning\\KatalonLearning\\Reports\\20240519_135501\\SwagLabsSuite\\20240519_135501"/>
+         <property name="logFiles" value="C:\\Users\\YG212WY\\OneDrive - EY\\Documents\\KatalonLearning\\KatalonLearning\\Reports\\20240519_135501\\SwagLabsSuite\\20240519_135501\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="YG212WY - IN3156889W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 125"/>
+         <property name="hostAddress" value="192.168.148.180"/>
+         <property name="sessionId" value="1b8e052914dd57022f9da59645d31666"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SwagLabs" time="26.297" classname="Test Cases/SwagLabs" status="PASSED">
+         <system-out><![CDATA[19-05-2024T13:55:16 - [TEST_CASE][PASSED] - Test Cases/SwagLabs: Test Cases/SwagLabs
+
+19-05-2024T13:55:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-05-2024T13:55:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+19-05-2024T13:55:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2024T13:55:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-05-2024T13:55:20 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/index.html"): Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+19-05-2024T13:55:25 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+19-05-2024T13:55:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac (1)"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SwagLabObject/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac (1)'
+
+19-05-2024T13:55:27 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SwagLabObject/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac (1)'
+
+19-05-2024T13:55:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9 (1)"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SwagLabObject/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9 (1)'
+
+19-05-2024T13:55:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SwagLabObject/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9 (1)'
+
+19-05-2024T13:55:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/form")): Object: 'Object Repository/SwagLabObject/Page_Swag Labs/form' is clicked on
+
+19-05-2024T13:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLabObject/Page_Swag Labs/form' is clicked on
+
+19-05-2024T13:55:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71 (1)")): Object: 'Object Repository/SwagLabObject/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71 (1)' is clicked on
+
+19-05-2024T13:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLabObject/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71 (1)' is clicked on
+
+19-05-2024T13:55:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/button_ADD TO CART (1)")): Object: 'Object Repository/SwagLabObject/Page_Swag Labs/button_ADD TO CART (1)' is clicked on
+
+19-05-2024T13:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLabObject/Page_Swag Labs/button_ADD TO CART (1)' is clicked on
+
+19-05-2024T13:55:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/path (1)")): Object: 'Object Repository/SwagLabObject/Page_Swag Labs/path (1)' is clicked on
+
+19-05-2024T13:55:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/SwagLabObject/Page_Swag Labs/path (1)'. Try using Self-healing.
+
+19-05-2024T13:55:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/SwagLabObject/Page_Swag Labs/path (1)' was broken. Propose an alternative one: 'path'.
+
+19-05-2024T13:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLabObject/Page_Swag Labs/path (1)' is clicked on
+
+19-05-2024T13:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/a_CHECKOUT (1)")): Object: 'Object Repository/SwagLabObject/Page_Swag Labs/a_CHECKOUT (1)' is clicked on
+
+19-05-2024T13:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLabObject/Page_Swag Labs/a_CHECKOUT (1)' is clicked on
+
+19-05-2024T13:55:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/input_Checkout Your Information_first-name (1)"), "karthik"): Text 'karthik' is set on object 'Object Repository/SwagLabObject/Page_Swag Labs/input_Checkout Your Information_first-name (1)'
+
+19-05-2024T13:55:36 - [MESSAGE][PASSED] - Text 'karthik' is set on object 'Object Repository/SwagLabObject/Page_Swag Labs/input_Checkout Your Information_first-name (1)'
+
+19-05-2024T13:55:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/input_Checkout Your Information_last-name (1)"), "s"): Text 's' is set on object 'Object Repository/SwagLabObject/Page_Swag Labs/input_Checkout Your Information_last-name (1)'
+
+19-05-2024T13:55:37 - [MESSAGE][PASSED] - Text 's' is set on object 'Object Repository/SwagLabObject/Page_Swag Labs/input_Checkout Your Information_last-name (1)'
+
+19-05-2024T13:55:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/input_Checkout Your Information_postal-code (1)"), "654321"): Text '654321' is set on object 'Object Repository/SwagLabObject/Page_Swag Labs/input_Checkout Your Information_postal-code (1)'
+
+19-05-2024T13:55:38 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/SwagLabObject/Page_Swag Labs/input_Checkout Your Information_postal-code (1)'
+
+19-05-2024T13:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/input_CANCEL_btn_primary cart_button (1)")): Object: 'Object Repository/SwagLabObject/Page_Swag Labs/input_CANCEL_btn_primary cart_button (1)' is clicked on
+
+19-05-2024T13:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLabObject/Page_Swag Labs/input_CANCEL_btn_primary cart_button (1)' is clicked on
+
+19-05-2024T13:55:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/a_FINISH (1)")): Object: 'Object Repository/SwagLabObject/Page_Swag Labs/a_FINISH (1)' is clicked on
+
+19-05-2024T13:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLabObject/Page_Swag Labs/a_FINISH (1)' is clicked on
+
+19-05-2024T13:55:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLabObject/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER (1)"), "THANK YOU FOR YOUR ORDER"): Actual text and expected text of test object 'Object Repository/SwagLabObject/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER (1)' are matched.
+
+19-05-2024T13:55:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLabObject/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER (1)' are matched.
+
+19-05-2024T13:55:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-05-2024T13:55:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-05-2024T13:55:06 - [TEST_SUITE][FAILED] - SwagLabsSuite: Test Cases/SwagLabs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at SwagLabs.run(SwagLabs:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716107101017.run(TempTestSuite1716107101017.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: Microsoft Edge failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IN3156889W1', ip: '192.168.148.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00780353+230755]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00658701+402161]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00468AD0+3568]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0048F128+53976]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0048A71C+35020]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x004BB243+234483]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x004BAB3C+232684]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x004B16B6+194662]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00494F83+78131]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00493F65+74005]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0049498D+76605]
+	GetHandleVerifier [0x008744DC+1230572]
+	Microsoft::Applications::Events::FromJSON [0x00945F82+132146]
+	Microsoft::Applications::Events::FromJSON [0x00945907+130487]
+	Microsoft::Applications::Events::FromJSON [0x0093A840+85232]
+	Microsoft::Applications::Events::FromJSON [0x0094695B+134667]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x0066B64F+479807]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00661178+437608]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x006612EB+437979]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x0064B954+349508]
+	BaseThreadInitThunk [0x766CFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x770A7C5E+286]
+	RtlGetAppContainerNamedObjectPath [0x770A7C2E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:692)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:397)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[19-05-2024T13:55:06 - [TEST_SUITE][FAILED] - SwagLabsSuite: Test Cases/SwagLabs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at SwagLabs.run(SwagLabs:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716107101017.run(TempTestSuite1716107101017.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: Microsoft Edge failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IN3156889W1', ip: '192.168.148.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00780353+230755]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00658701+402161]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00468AD0+3568]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0048F128+53976]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0048A71C+35020]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x004BB243+234483]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x004BAB3C+232684]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x004B16B6+194662]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00494F83+78131]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00493F65+74005]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0049498D+76605]
+	GetHandleVerifier [0x008744DC+1230572]
+	Microsoft::Applications::Events::FromJSON [0x00945F82+132146]
+	Microsoft::Applications::Events::FromJSON [0x00945907+130487]
+	Microsoft::Applications::Events::FromJSON [0x0093A840+85232]
+	Microsoft::Applications::Events::FromJSON [0x0094695B+134667]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x0066B64F+479807]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00661178+437608]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x006612EB+437979]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x0064B954+349508]
+	BaseThreadInitThunk [0x766CFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x770A7C5E+286]
+	RtlGetAppContainerNamedObjectPath [0x770A7C2E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:692)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:397)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

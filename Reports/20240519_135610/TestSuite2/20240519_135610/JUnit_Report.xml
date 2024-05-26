@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite2" time="21.106" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite2" tests="1" failures="0" errors="0" time="21.106" skipped="0" timestamp="19-05-2024T13:56:15" hostname="YG212WY - IN3156889W1.ey.net" id="Test Suites/TestSuite2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\YG212WY\\OneDrive - EY\\Documents\\KatalonLearning\\KatalonLearning\\Reports\\20240519_135610\\TestSuite2\\20240519_135610"/>
+         <property name="logFiles" value="C:\\Users\\YG212WY\\OneDrive - EY\\Documents\\KatalonLearning\\KatalonLearning\\Reports\\20240519_135610\\TestSuite2\\20240519_135610\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="YG212WY - IN3156889W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 125"/>
+         <property name="hostAddress" value="192.168.148.180"/>
+         <property name="sessionId" value="9c5a00b1cf68ce9d07df4bd5263a95db"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SwagLabslogin" time="20.866" classname="Test Cases/SwagLabslogin" status="PASSED">
+         <system-out><![CDATA[19-05-2024T13:56:16 - [TEST_CASE][PASSED] - Test Cases/SwagLabslogin: Test Cases/SwagLabslogin
+
+19-05-2024T13:56:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-05-2024T13:56:17 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+19-05-2024T13:56:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2024T13:56:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-05-2024T13:56:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/index.html"): Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+19-05-2024T13:56:28 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+19-05-2024T13:56:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+19-05-2024T13:56:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'. Try using Self-healing.
+
+19-05-2024T13:56:29 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac' was broken. Propose an alternative one: '//input[@id='user-name']'.
+
+19-05-2024T13:56:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'. Try using Self-healing.
+
+19-05-2024T13:56:29 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac' was broken. Propose an alternative one: '//input[@id='user-name']'.
+
+19-05-2024T13:56:30 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+19-05-2024T13:56:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+19-05-2024T13:56:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'. Try using Self-healing.
+
+19-05-2024T13:56:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9' was broken. Propose an alternative one: '//input[@id='password']'.
+
+19-05-2024T13:56:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+19-05-2024T13:56:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+19-05-2024T13:56:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'. Try using Self-healing.
+
+19-05-2024T13:56:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' was broken. Propose an alternative one: '//input[@id='login-button']'.
+
+19-05-2024T13:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+19-05-2024T13:56:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/Page_Swag Labs/button_Open Menu")): Object: 'Object Repository/login/Page_Swag Labs/button_Open Menu' is clicked on
+
+19-05-2024T13:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Swag Labs/button_Open Menu' is clicked on
+
+19-05-2024T13:56:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/Page_Swag Labs/a_Logout")): Object: 'Object Repository/login/Page_Swag Labs/a_Logout' is clicked on
+
+19-05-2024T13:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Swag Labs/a_Logout' is clicked on
+
+19-05-2024T13:56:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-05-2024T13:56:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-05-2024T13:56:15 - [TEST_SUITE][PASSED] - TestSuite2: Test Cases/SwagLabslogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

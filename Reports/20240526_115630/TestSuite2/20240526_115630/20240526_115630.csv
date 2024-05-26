@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite2,Chrome 125.0.0.0,,,26-05-2024 11:56:39,26-05-2024 11:56:58,18.151s,PASSED
+,,,,,,,
+Test Cases/SwagLabslogin,Chrome 125.0.0.0,,,26-05-2024 11:56:40,26-05-2024 11:56:58,17.556s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,26-05-2024 11:56:41,26-05-2024 11:56:49,8.597s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Chrome 125.0.0.0,,,26-05-2024 11:56:49,26-05-2024 11:56:51,1.271s,PASSED
+"setText(findTestObject(""Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_user"")",Chrome 125.0.0.0,,,26-05-2024 11:56:51,26-05-2024 11:56:52,1.155s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 125.0.0.0,,,26-05-2024 11:56:52,26-05-2024 11:56:52,0.476s,PASSED
+"click(findTestObject(""Object Repository/login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Chrome 125.0.0.0,,,26-05-2024 11:56:52,26-05-2024 11:56:55,2.560s,PASSED
+"click(findTestObject(""Object Repository/login/Page_Swag Labs/button_Open Menu""))",Chrome 125.0.0.0,,,26-05-2024 11:56:55,26-05-2024 11:56:55,0.383s,PASSED
+"click(findTestObject(""Object Repository/login/Page_Swag Labs/a_Logout""))",Chrome 125.0.0.0,,,26-05-2024 11:56:55,26-05-2024 11:56:56,0.597s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,26-05-2024 11:56:56,26-05-2024 11:56:58,1.656s,PASSED

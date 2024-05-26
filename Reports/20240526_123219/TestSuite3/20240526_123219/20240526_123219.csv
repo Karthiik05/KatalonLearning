@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite3,Edge Chromium 125,,,26-05-2024 12:32:26,26-05-2024 12:32:47,20.378s,PASSED
+,,,,,,,
+Test Cases/Verifyhomepage,Edge Chromium 125,,,26-05-2024 12:32:27,26-05-2024 12:32:47,19.975s,PASSED
+"openBrowser("""")",Edge Chromium 125,,,26-05-2024 12:32:27,26-05-2024 12:32:34,7.013s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Edge Chromium 125,,,26-05-2024 12:32:34,26-05-2024 12:32:39,5.024s,PASSED
+"setText(findTestObject(""Object Repository/homepage/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_user"")",Edge Chromium 125,,,26-05-2024 12:32:39,26-05-2024 12:32:41,2.272s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/homepage/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 125,,,26-05-2024 12:32:41,26-05-2024 12:32:42,0.688s,PASSED
+"sendKeys(findTestObject(""Object Repository/homepage/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), Keys.chord(ENTER))",Edge Chromium 125,,,26-05-2024 12:32:42,26-05-2024 12:32:45,3.047s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/homepage/Page_Swag Labs/div_Products""), 0)",Edge Chromium 125,,,26-05-2024 12:32:45,26-05-2024 12:32:46,0.434s,PASSED
+closeBrowser(),Edge Chromium 125,,,26-05-2024 12:32:46,26-05-2024 12:32:47,0.953s,PASSED

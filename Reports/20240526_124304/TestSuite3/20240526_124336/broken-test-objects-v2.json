@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/homepage/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027user-name\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240526_124304/TestSuite3/20240526_124336/Object Repository/homepage/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac_attributes.png"
+    }
+  ]
+}

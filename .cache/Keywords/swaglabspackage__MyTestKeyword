@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "04688DE74FD20FEEF360E25DD25D0732",
+  "keywordClasses": [
+    {
+      "name": "swaglabspackage.MyTestKeyword",
+      "keywordMethods": [
+        {
+          "name": "refreshbrowser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

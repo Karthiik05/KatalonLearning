@@ -19,22 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.saucedemo.com/v1/index.html')
+WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action')
 
-CustomKeywords.'swaglabspackage.MyTestKeyword.refreshbrowser'()
+WebUI.click(findTestObject('Object Repository/ImageTesting/Page_JPetStore Demo/img'))
 
-WebUI.setText(findTestObject('Object Repository/homepage/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 
-    'standard_user')
+WebUI.click(findTestObject('Object Repository/ImageTesting/Page_JPetStore Demo/a_FI-SW-01'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/homepage/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
-    'qcu24s4901FyWDTwXGr6XA==')
+WebUI.click(findTestObject('Object Repository/ImageTesting/Page_JPetStore Demo/a_EST-1'))
 
-WebUI.sendKeys(findTestObject('Object Repository/homepage/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/ImageTesting/Page_JPetStore Demo/div_Salt Water fish from Australia EST-1  L_a6b2b2'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/homepage/Page_Swag Labs/div_Products'), 0)
+WebUI.takeScreenshotAsCheckpoint('LargeAngelFish')
 
-WebUI.check(findTestObject(null))
+WebUI.verifyElementText(findTestObject('Object Repository/ImageTesting/Page_JPetStore Demo/img_1'), '')
 
 WebUI.closeBrowser()
 
